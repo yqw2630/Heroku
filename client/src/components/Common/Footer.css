@@ -1,0 +1,22 @@
+  .App-footer {
+    bottom: 0;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+  }
+  
+  .App-footer-text-left {
+    color: white;
+    text-align: start;
+    margin: 1% 10px;
+  }
+  
+  .App-footer-text-right {
+    color: white;
+    text-align: end;
+    margin: 1% 10px;
+  }

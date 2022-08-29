@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import Article from '../components/Article'
-import Search from '../components/Search'
-import MostSearched from '../components/MostSearched'
-import Loading from '../components/Loading'
+import Article from '../components/Home/Article'
+import Search from '../components/Home/Search'
+import MostSearched from '../components/Home/MostSearched'
+import Loading from '../components/Common/Loading'
 
 export const Home = () => {
   const [isFetching, setIsFetching] = useState([true, true])

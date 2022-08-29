@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import {Link, useParams} from 'react-router-dom'
-import Error from '../components/404'
-import CatSummary from '../components/CatSummary'
-import CatPhoto from '../components/CatPhoto'
-import Loading from '../components/Loading'
+import Error from '../components/DetailPage/404'
+import CatSummary from '../components/DetailPage/CatSummary'
+import CatPhoto from '../components/DetailPage/CatPhoto'
+import Loading from '../components/Common/Loading'
 
 export const DetailPage = () => {
   const [isFetching, setIsFetching] = useState([true, true])

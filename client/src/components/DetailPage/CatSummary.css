@@ -1,0 +1,115 @@
+/* summary component */
+  .cat-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+  }
+  
+  .cat-summary .photo-container {
+    width: 95%;
+    height: 23rem;
+    position: relative;
+    align-self: center;
+    margin: 0 0 2rem;
+  }
+  
+  .cat-summary .photo-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .cat-summary .text {
+    margin: 0 0 1.4rem 0;
+  }
+  
+  .cat-summary .text h4 {
+    font-weight: 550;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .cat-summary .text p {
+    font-size: .8rem;
+    font-weight: 400;
+  }
+  
+  .cat-summary .stats {
+    margin: 2rem 0;
+  }
+  
+  .cat-summary .stats p {
+    font-size: .8rem;
+  }
+  
+  .cat-summary div.stats span{
+    font-weight: 600;
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .rating .stat {
+    font-weight: 450;
+    font-size: .6rem;
+    width: 30%;
+  }
+  
+  .cat-summary .stats .rating-container {
+    width: 70%;
+    display: flex;
+  }
+  
+  .cat-summary .stats .rating-container .bk-bg {
+    display: inline-block;
+    height: .45rem; 
+    width: 2rem; 
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 0 .2rem;
+  }
+  
+  .cat-summary .stats .rating-container .no-bg {
+    display: inline-block;
+    height: .45rem; 
+    width: 2rem; 
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    border-radius: 12px;
+    margin: 0 .2rem;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .cat-summary{
+      flex-direction: row;
+    }
+  
+    .cat-summary .photo-container {
+      align-self: flex-start;
+      width: 21rem;
+      height: 28rem;
+    }
+  
+    .cat-summary .right {
+      width: 60%;
+    }
+  
+    .cat-summary .right .text {
+      width: 80%;
+    }
+  
+    .rating {
+      width: 60%;
+    }
+  }
+  /* end of summary component */

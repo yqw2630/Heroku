@@ -77,7 +77,7 @@ heroku app:create ${insert-your-app-name-here}
 Next we need to add a Git remote for Heroku and commit any changes:
 
 ```
-heroku git:remote -a ${insert-your-app-name-here}
+heroku git:remote -a cat-wiki-adrian-yu
 git add .
 git commit -am "Deploy app to Heroku"
 ```

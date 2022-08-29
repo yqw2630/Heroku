@@ -1,4 +1,5 @@
 import React from 'react'
+import './CatPhoto.css'
 
 export default function CatPhoto (props) {
   return (

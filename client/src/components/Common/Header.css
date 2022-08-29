@@ -1,0 +1,23 @@
+  .App-logo {
+    height: 50px;
+    pointer-events: none;
+    margin-right: 1%;
+  }
+  
+  .App-header {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .App-title {
+    color: #FBC564;
+    font-size: 50px;
+  }

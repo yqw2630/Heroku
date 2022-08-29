@@ -1,8 +1,9 @@
 import React from 'react'
-import Arrow from '../img/read-more-arrow.png'
-import GridImage1 from '../img/grid-image-1.png'
-import GridImage2 from '../img/grid-image-2.png'
-import GridImage3 from '../img/grid-image-3.png'
+import Arrow from '../../img/read-more-arrow.png'
+import GridImage1 from '../../img/grid-image-1.png'
+import GridImage2 from '../../img/grid-image-2.png'
+import GridImage3 from '../../img/grid-image-3.png'
+import './Article.css'
 
 export default function Article() {
   return (

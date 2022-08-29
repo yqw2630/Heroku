@@ -1,0 +1,37 @@
+/* photo component */
+  .cat-photos {
+    height: 24rem;
+  }
+  
+  .cat-photos h3 {
+    font-weight: 500;
+  }
+  
+  .cat-photos .photo-carousel {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: space-between;
+    width: 100%;
+  }
+  
+  .cat-photos .photo-carousel img {
+    width: 44%;
+    height: 9rem;
+    object-fit: cover;
+    margin: 5% 2.5%;
+    border-radius: 12px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .cat-photos .photo-carousel {
+      height: auto;
+    }
+  
+    .cat-photos .photo-carousel img {
+      width: 23%;
+      height: 11rem;
+      margin: 1.5% 1%;
+    }
+  }
+  /* end of photo component */

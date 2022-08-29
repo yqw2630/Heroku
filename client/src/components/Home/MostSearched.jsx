@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom' 
-import Arrow from '../img/read-more-arrow.png'
-import placeHolder from '../img/placeholder.jpg'
+import Arrow from '../../img/read-more-arrow.png'
+import './MostSearched.css'
 
 export default function MostSearched(props) {
   return (
@@ -18,7 +18,7 @@ export default function MostSearched(props) {
             {props.top4.map((cat, i) => (
                 <div key={i} className={`image-${i+1}`}>
                     <Link to={`/detail-page/${cat.name}`}>
-                        <img src={cat.url} alt={cat.name}/>
+                        <img data-testid="home-images" src={cat.url} alt={cat.name}/>
                         <p>{cat.name}</p>
                     </Link>
                 </div>

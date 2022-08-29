@@ -1,4 +1,5 @@
 import React from 'react'
+import './CatSummary.css'
 
 export default function CatSummary (props){
   const generateRatingBar = number => {

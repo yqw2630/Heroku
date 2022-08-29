@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Header} from "./components/Header";
-import {Footer} from "./components/Footer";
+import {Header} from "./components/Common/Header";
+import {Footer} from "./components/Common/Footer";
 import {DetailPage} from "./pages/DetailPage";
 import {Home} from "./pages/Home";
 import {MostSearchedPage} from "./pages/MostSearchedPage";

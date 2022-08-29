@@ -1,0 +1,148 @@
+/* most searched-component */
+  .most-searched {
+    background-color: oldlace;
+    height: auto;
+    max-width: 1160px;
+    border-radius: 0 0 40px 40px;
+    margin: auto;
+  }
+  
+  .most-searched h5 {
+    margin: 0 0.5rem;
+    padding: 1.3rem 0 .3rem 0;
+    font-weight: 500;
+  }
+  
+  .most-searched .line-break {
+    height: .15rem;
+    width: 3rem;
+    margin: 0 0.5rem;
+    background-color: black;
+    border: 1px solid black; 
+    border-radius: 40px;
+  }
+  
+  .most-searched .titles {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    margin: .25rem 0.5rem 2rem;
+    padding: 1rem 0 0;
+  }
+  
+  .most-searched .titles h3 {
+   display: inline;
+   font-size: .8rem;
+   flex-basis: 55%;
+   margin: 0;
+  }
+  
+  .most-searched .titles a {
+    display: inline;
+    font-size: .7rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    align-self: flex-end;
+    justify-self: flex-end;
+    flex-basis: 45%;
+    text-align: right;
+    margin: 0 0.5rem 0 0;
+  }
+  
+  .most-searched .titles a p {
+    margin: 0;
+  }
+  
+  .most-searched .titles p img {
+    vertical-align: middle;
+  }
+  
+  .most-searched .article-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    height: auto;
+    text-align: left;
+  }
+  
+  .most-searched .article-images div {
+    width: 45%;
+    height: 12rem;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .most-searched .article-images div a {
+    width: 100%;
+    height: 50%;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .most-searched .article-images div img {
+    width: 100%;
+    height: 145%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    outline: none;
+  }
+  
+  .most-searched .article-images div a:hover {
+    text-shadow: 4px 1px 2px lightgrey;
+  }
+  
+  .most-searched .article-images p {
+    width: 90%;
+    align-self: auto;
+    margin: .5rem 0 .5rem .5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .most-searched .article-images  img:hover {
+    box-shadow: 7px 7px 5px 0px darkgray;
+    transform: scale(1.01)
+  }
+  
+  @media screen and (min-width: 700px) {
+    .most-searched {
+      max-width: 1160px;
+    }
+  
+    .most-searched h5 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0 2rem;
+    }
+  
+    .most-searched .line-break {
+      margin: 0 2rem;
+    }
+  
+    .most-searched .titles {
+      padding: .5rem 2rem 2rem 2rem;
+      margin: 0;
+    }
+  
+    .most-searched .titles h3 {
+      font-size: 2.2rem;
+    }
+  
+    .most-searched .titles a {
+      margin: 0;
+    }
+  
+    .most-searched .article-images div {
+      width: 20%;
+      height: 18rem;
+    }
+  }
+  /* end of most searched-component */
