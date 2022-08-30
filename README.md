@@ -3,23 +3,38 @@
 A cat Wiki to see all kinds of cute cats' photos and information!
 
 1. Main Functions:
+
 1.1 Breeds Search -
+
 Allows users to search for cat breeds from the homepage and select a breed of my choice from a list, the list will generate when the search input is changed and not empty, the list will based on the user input.
+
 1.2 Breeds Details Page -
+
 Allows users to see more photos of the breed and the breed details including (description, temperament, origin, life span, adaptability, affection level, child-friendly, grooming, intelligence, health issues, social needs, stranger friendly) on the breed details page, clicking on cats' photos, detail links or the list in the search tool will take you to the details page
+
 1.3 Top searched Cats -
+
 Allows users to see the top 4 most searched cat breeds on the homepage and the top 10 most searched cat breeds inside the top 10 page.
+
 ```
 Because Statics functions are only available for the paid users of Cat API, the cat search by breed api was used here, along with top 10 most searched cats' ids
 ```
 2. Other Featuers:
+
 2.1 -
+
 Clicking on the header will take the users to homepage
+
 2.2 -
+
 Loading screen will show before the data is ready
+
 2.3 -
+
 Responsible
+
 2.4 - 
+
 Fixed header and footer
 
 ## Starting the backend
