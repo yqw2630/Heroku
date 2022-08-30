@@ -68,6 +68,7 @@
     padding: 0 1rem;
     z-index: 2;
     position: absolute;
+    min-height: 37px;
   }
   
   .names-list::-webkit-scrollbar {
