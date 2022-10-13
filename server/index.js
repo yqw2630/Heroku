@@ -2,7 +2,7 @@ const path = require('path');
 const express = require("express");
 const axios = require('axios');
 
-const apiKey = 'live_gsu9fTUGtWevYKcwcSCEr0hGGmkVt4VaWCXwPANTvts2UKXzftglsJXZh824SGm5';
+const apiKey = '';
 const options = {
   headers: {
     "x-Api-Key": apiKey,
